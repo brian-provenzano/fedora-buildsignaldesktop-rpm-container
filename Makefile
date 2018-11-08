@@ -1,7 +1,7 @@
 
 
 pull:
-	@docker pull fedora:latest
+	@docker pull fedora:28
 build:
 	@docker build -t warpigg/fedora-signaldesktopbuilder:$(version) .
 build-pull: pull

@@ -1,5 +1,5 @@
 # Version: 0.0.1
-FROM fedora:latest
+FROM fedora:28
 LABEL org.thenuclei.creator="Brian Provenzano" \
       org.thenuclei.email="bproven@example.com"
 USER root
